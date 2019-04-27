@@ -105,6 +105,21 @@
 	    </snapshotRepository>
 	</distributionManagement> -->
 	
+	<distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://13.233.73.70:8081/repository/mvnproject/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://13.233.73.70:8081/repository/mvnproject2/</url>
+	    </snapshotRepository>
+	</distributionManagement>
+	
+	
+	
 
 	<build>
 		<finalName>MavenEnterpriseApplication</finalName>
